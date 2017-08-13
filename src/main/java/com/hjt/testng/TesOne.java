@@ -10,6 +10,7 @@ public class TesOne {
         System.out.println(person);
         Person person1 = (Person) Class.forName("com.hjt.testng.Person").newInstance();
         System.out.println(person1);
+
     }
 }
 class Person{
