@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testproj" parallel="false">
+    <parameter name="first-name"  value="Cedric"/>
+    <test name="testDemo1">
+        <packages>
+        <package name="com.testproj.Demo"/>
+        </packages>
+        <classes>
+            <class name="C"></class>
+        </classes>
+    </test>
+
+    <!--<test name="testDemo1">-->
+<!--<groups>-->
+    <!--<run>-->
+        <!--<exclude name="functest"/>-->
+    <!--</run>-->
+<!--</groups>-->
+<!--<classes>-->
+    <!--<class name="Test1"/>-->
+<!--</classes>-->
+<!--</test>-->
+
+    <!--<test name="Test1">-->
+            <!--<groups>-->
+                    <!--<run>-->
+                            <!--<include name="windows.*"/>-->
+                    <!--</run>-->
+            <!--</groups>>-->
+        <!--<classes>-->
+        <!--<class name="Test1"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+    <!--<test name="Test1">-->
+        <!--<classes>-->
+            <!--<class name="Test1">-->
+                <!--<methods>-->
+                    <!--<include name=".*enabledTestMethod.*"/>-->
+                    <!--<exclude name=".*brokenTestMethod.*"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="Regression1">-->
+            <!--<groups>-->
+                    <!--<define name="functest">-->
+                        <!--<include name="windows"/>-->
+                        <!--<include name="LInux"/>-->
+                    <!--</define>-->
+
+                    <!--<define name="all">-->
+                            <!--<include name="functest"/>-->
+                            <!--<include name="checkintest"/>-->
+                    <!--</define>-->
+                    <!--<run>-->
+                            <!--<include name="all"/>-->
+                    <!--</run>-->
+            <!--</groups>-->
+            <!--<classes>-->
+                    <!--<class name="Test1"/>-->
+            <!--</classes>-->
+    <!--</test>-->
+
+
+
+        </suite>
